@@ -1,0 +1,68 @@
+{
+  "_leia": "Exemplos de ofertas que já saíram no grupo. Só aparecem na página os itens com \"ativo\": true. TODO: preencher precoDe/precoPor com os valores reais de quando a oferta foi divulgada (hoje ficam escondidos: MOSTRAR_PRECOS em src/config.ts). TODO: completar os itens de eletrodomésticos e enxoval (nome, imagem em /public/ofertas, loja) e trocar \"ativo\" para true. Nicho: eletronicos | eletrodomesticos | enxoval.",
+  "ofertas": [
+    {
+      "ativo": true,
+      "nome": "Motorola Edge 60 Fusion 5G 256GB 8GB RAM Câmera Sony 50MP",
+      "imagem": "/ofertas/motorola-edge60.webp",
+      "loja": "Mercado Livre",
+      "nicho": "eletronicos",
+      "precoDe": "R$ 0,00",
+      "precoPor": "R$ 0,00"
+    },
+    {
+      "ativo": true,
+      "nome": "Smart TV 32\" Philco Roku TV Dolby Áudio HDR10",
+      "imagem": "/ofertas/tv-philco-32.webp",
+      "loja": "Mercado Livre",
+      "nicho": "eletronicos",
+      "precoDe": "R$ 0,00",
+      "precoPor": "R$ 0,00"
+    },
+    {
+      "ativo": true,
+      "nome": "Kit 2 Câmeras de Segurança Wi-Fi Interna e Externa à Prova d'Água",
+      "imagem": "/ofertas/kit-cameras.webp",
+      "loja": "Mercado Livre",
+      "nicho": "eletronicos",
+      "precoDe": "R$ 0,00",
+      "precoPor": "R$ 0,00"
+    },
+    {
+      "ativo": false,
+      "nome": "TODO: nome do eletrodoméstico",
+      "imagem": "/ofertas/TODO-eletrodomestico-1.webp",
+      "loja": "TODO",
+      "nicho": "eletrodomesticos",
+      "precoDe": "R$ 0,00",
+      "precoPor": "R$ 0,00"
+    },
+    {
+      "ativo": false,
+      "nome": "TODO: nome do eletrodoméstico",
+      "imagem": "/ofertas/TODO-eletrodomestico-2.webp",
+      "loja": "TODO",
+      "nicho": "eletrodomesticos",
+      "precoDe": "R$ 0,00",
+      "precoPor": "R$ 0,00"
+    },
+    {
+      "ativo": false,
+      "nome": "TODO: nome do item de enxoval",
+      "imagem": "/ofertas/TODO-enxoval-1.webp",
+      "loja": "TODO",
+      "nicho": "enxoval",
+      "precoDe": "R$ 0,00",
+      "precoPor": "R$ 0,00"
+    },
+    {
+      "ativo": false,
+      "nome": "TODO: nome do item de enxoval",
+      "imagem": "/ofertas/TODO-enxoval-2.webp",
+      "loja": "TODO",
+      "nicho": "enxoval",
+      "precoDe": "R$ 0,00",
+      "precoPor": "R$ 0,00"
+    }
+  ]
+}
