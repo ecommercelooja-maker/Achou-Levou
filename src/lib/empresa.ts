@@ -6,7 +6,7 @@ export const CNPJ = "31.632.202/0001-80";
 export const ENDERECO = "";
 // ", endereço" pronto para colar depois do CNPJ (vazio quando não há endereço).
 export const ENDERECO_SUFIXO = ENDERECO ? `, ${ENDERECO}` : "";
-export const EMAIL_CONTATO = "contato@ofertacertapromo.com";
+export const EMAIL_CONTATO = "contato@achoulevou.com.br";
 
 // Linha exibida no rodapé da home e no fim de cada página legal.
 export const LINHA_EMPRESA = `${RAZAO_SOCIAL} · CNPJ ${CNPJ}${ENDERECO ? ` · ${ENDERECO}` : ""} · Dúvidas: ${EMAIL_CONTATO}`;
