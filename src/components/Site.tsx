@@ -70,8 +70,8 @@ export function Rodape({ home = false }: { home?: boolean }) {
           <div className="rodape-cta">
             <Anim n="foguete" t={48} />
             <div>
-              <b>Entre e veja como é.</b>
-              <span>Se não gostar, sai em dois toques.</span>
+              <b>Bora achar a próxima oferta?</b>
+              <span>Entra no grupo e deixa no silencioso. Sai quando quiser.</span>
             </div>
             <a className="btn-zap" href={LINK_PRINCIPAL}>
               <IconeZap /> Entrar no grupo
@@ -115,10 +115,6 @@ export function Rodape({ home = false }: { home?: boolean }) {
               <a href="/afiliados">Aviso de afiliados</a>
             </nav>
           </div>
-        </div>
-
-        <div className="rodape-gigante" aria-hidden="true">
-          <span>Achou, Levou</span>
         </div>
 
         <div className="wrap rodape-base">

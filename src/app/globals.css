@@ -18,7 +18,7 @@
   --zap: #0e7a41;
   --zap-claro: #25d366;
   --tele: #229ed9;
-  --titulo: var(--f-titulo), Anton, Impact, sans-serif;
+  --titulo: var(--f-titulo), "Bricolage Grotesque", system-ui, sans-serif;
   --sombra: 0 1px 2px rgba(66, 7, 18, .05), 0 10px 30px rgba(66, 7, 18, .08);
 }
 
@@ -28,7 +28,7 @@ html { scroll-behavior: smooth; scroll-padding-top: 70px; }
 body {
   background: var(--papel);
   color: var(--tinta);
-  font-family: var(--f-texto), Archivo, system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-family: var(--f-texto), "Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
   font-size: 16px;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
@@ -54,8 +54,7 @@ img { max-width: 100%; }
 .topbar-int { max-width: 1140px; margin: 0 auto; padding: 10px 20px; display: flex; align-items: center; gap: 14px; }
 .topbar-marca {
   display: flex; align-items: center; gap: 9px; padding-block: 4px;
-  text-decoration: none; font-family: var(--titulo); font-size: 22px;
-  text-transform: uppercase; letter-spacing: .015em; color: var(--marinho);
+  text-decoration: none; font-family: var(--titulo); font-weight: 800; font-size: 22px; letter-spacing: -.02em; color: var(--marinho);
 }
 .topbar-marca em { font-style: normal; color: var(--azul-vivo); margin-left: 4px; }
 .topbar-icone { width: 34px; height: 34px; display: block; flex: none; }
@@ -111,8 +110,8 @@ img { max-width: 100%; }
 }
 .hero-pilula b { color: #fff; }
 .hero h1 {
-  font-family: var(--titulo); font-weight: 400; text-transform: uppercase;
-  font-size: clamp(40px, 10vw, 60px); line-height: 1; margin: 0 0 18px; letter-spacing: .005em;
+  font-family: var(--titulo); font-weight: 800;
+  font-size: clamp(40px, 10vw, 60px); line-height: 1; margin: 0 0 18px; letter-spacing: -.02em;
   text-shadow: 0 4px 0 rgba(38, 3, 10, .35);
 }
 .destaque-off {
@@ -184,7 +183,7 @@ img { max-width: 100%; }
   background: #fff; border: 1.5px solid var(--linha); border-radius: 20px; padding: 18px 14px; text-align: center;
   display: flex; flex-direction: column; align-items: center; gap: 2px; box-shadow: var(--sombra);
 }
-.numero b { font-family: var(--titulo); font-weight: 400; font-size: clamp(28px, 6vw, 40px); line-height: 1.1; color: var(--azul); margin-top: 6px; }
+.numero b { font-family: var(--titulo); font-weight: 800; font-size: clamp(28px, 6vw, 40px); line-height: 1.1; color: var(--azul); margin-top: 6px; }
 .numero > span { font-size: 13.5px; color: var(--tinta-2); line-height: 1.3; }
 
 /* ---------- Seções ---------- */
@@ -197,8 +196,7 @@ img { max-width: 100%; }
 .sobretitulo.esquerda { justify-content: flex-start; }
 .sobretitulo.claro { color: var(--ciano); }
 .secao-titulo {
-  font-family: var(--titulo); font-weight: 400; font-size: clamp(32px, 6vw, 48px);
-  text-transform: uppercase; letter-spacing: .005em; color: var(--marinho);
+  font-family: var(--titulo); font-weight: 800; font-size: clamp(32px, 6vw, 48px); letter-spacing: -.02em; color: var(--marinho);
   text-align: center; margin: 0 auto 10px; line-height: 1.02; max-width: 22ch;
 }
 .secao-titulo .anim { margin-top: -8px; }
@@ -271,7 +269,7 @@ img { max-width: 100%; }
 .porque-lista article { display: flex; gap: 14px; background: #fff; border: 1.5px solid var(--linha); border-radius: 18px; padding: 16px 18px; }
 .porque-n {
   width: 34px; height: 34px; border-radius: 50%; flex: none; background: linear-gradient(145deg, var(--azul-vivo), var(--azul-esc)); color: #fff;
-  display: flex; align-items: center; justify-content: center; font-family: var(--titulo); font-size: 17px; box-shadow: 0 6px 12px rgba(200, 16, 46, .3);
+  display: flex; align-items: center; justify-content: center; font-family: var(--titulo); font-weight: 800; font-size: 17px; box-shadow: 0 6px 12px rgba(200, 16, 46, .3);
 }
 .porque-lista h3 { margin: 2px 0 4px; font-size: 17px; font-weight: 800; line-height: 1.25; }
 .porque-lista p { margin: 0; font-size: 14.5px; color: var(--tinta-2); line-height: 1.5; }
@@ -281,7 +279,7 @@ img { max-width: 100%; }
 .passo { position: relative; background: var(--card); border: 1.5px solid var(--linha); border-radius: 22px; padding: 26px 22px 22px; text-align: center; box-shadow: var(--sombra); }
 .passo-n {
   position: absolute; top: -16px; left: 50%; transform: translateX(-50%); width: 36px; height: 36px; border-radius: 50%;
-  background: var(--ouro); color: #4a3500; font-family: var(--titulo); font-size: 18px; display: flex; align-items: center; justify-content: center;
+  background: var(--ouro); color: #4a3500; font-family: var(--titulo); font-weight: 800; font-size: 18px; display: flex; align-items: center; justify-content: center;
   box-shadow: 0 0 0 5px var(--papel);
 }
 .passo h3 { font-size: 18px; font-weight: 800; margin: 10px 0 4px; }
@@ -293,7 +291,7 @@ img { max-width: 100%; }
 }
 @media (min-width: 820px) { .entrega { grid-template-columns: 1.1fr 1fr; } }
 .entrega-txt { padding: 30px 28px; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; gap: 12px; }
-.entrega-txt h3 { font-family: var(--titulo); font-weight: 400; text-transform: uppercase; font-size: clamp(24px, 3.2vw, 32px); line-height: 1.08; margin: 0; }
+.entrega-txt h3 { font-family: var(--titulo); font-weight: 800; font-size: clamp(24px, 3.2vw, 32px); line-height: 1.08; margin: 0; }
 
 .regras { margin-top: 30px; background: var(--card); border: 1.5px solid var(--linha); border-left: 6px solid var(--zap-claro); border-radius: 22px; padding: 24px 26px; }
 .regras h2 { display: flex; align-items: center; gap: 8px; font-size: 21px; font-weight: 800; margin: 0 0 14px; color: var(--marinho); }
@@ -309,7 +307,7 @@ img { max-width: 100%; }
 @media (min-width: 760px) { .passos-num { grid-template-columns: repeat(3, 1fr); } }
 .passos-num article { background: rgba(255, 255, 255, .05); border: 1px solid rgba(255, 255, 255, .12); border-radius: 20px; padding: 22px; display: flex; gap: 14px; align-items: flex-start; transition: background .2s, border-color .2s; }
 .passos-num article:hover { background: rgba(255, 107, 107, .08); border-color: rgba(255, 107, 107, .4); }
-.num-passo { font-family: var(--titulo); font-size: 18px; color: var(--ciano); background: rgba(255, 107, 107, .12); border: 1px solid rgba(255, 107, 107, .35); border-radius: 10px; padding: 7px 10px; flex: none; line-height: 1; }
+.num-passo { font-family: var(--titulo); font-weight: 800; font-size: 18px; color: var(--ciano); background: rgba(255, 107, 107, .12); border: 1px solid rgba(255, 107, 107, .35); border-radius: 10px; padding: 7px 10px; flex: none; line-height: 1; }
 .passos-num h3 { font-size: 17px; font-weight: 800; margin: 0 0 5px; }
 .passos-num p { margin: 0; font-size: 14.5px; color: #e6b9c0; line-height: 1.55; }
 
@@ -340,7 +338,7 @@ img { max-width: 100%; }
 }
 .fechamento .wrap { position: relative; z-index: 1; }
 .fechamento-emoji { display: block; margin: 0 auto 8px; }
-.fechamento h2 { font-family: var(--titulo); font-weight: 400; font-size: clamp(40px, 9vw, 72px); line-height: 1; text-transform: uppercase; margin: 0 0 14px; text-shadow: 0 4px 0 rgba(38, 3, 10, .35); }
+.fechamento h2 { font-family: var(--titulo); font-weight: 800; font-size: clamp(40px, 9vw, 72px); line-height: 1; margin: 0 0 14px; text-shadow: 0 4px 0 rgba(38, 3, 10, .35); }
 .fechamento h2 em { font-style: normal; color: var(--ouro); }
 .fechamento p { margin: 0 auto 24px; color: #fbdbe0; font-size: 17px; max-width: 46ch; }
 .fechamento .hero-ctas { margin-top: 0; }
@@ -371,7 +369,7 @@ img { max-width: 100%; }
 /* Páginas legais */
 .legal { padding-block: 40px 60px; }
 .legal .wrap { max-width: 680px; }
-.legal h1 { font-family: var(--titulo); font-weight: 400; font-size: clamp(30px, 7vw, 42px); text-transform: uppercase; color: var(--marinho); line-height: 1.05; margin: 0 0 16px; }
+.legal h1 { font-family: var(--titulo); font-weight: 800; font-size: clamp(30px, 7vw, 42px); color: var(--marinho); line-height: 1.05; margin: 0 0 16px; }
 .legal h2 { font-size: 19px; font-weight: 800; margin: 28px 0 8px; }
 .legal p, .legal li { color: var(--tinta-2); line-height: 1.7; }
 .legal-voltar { display: inline-block; margin-bottom: 20px; color: var(--azul); font-weight: 600; text-decoration: none; }

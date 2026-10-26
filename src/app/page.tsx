@@ -83,13 +83,13 @@ export default function Home() {
               </span>
             </span>
             <h1>
-              Promoções selecionadas todo dia, <span className="destaque-off">num grupo só</span>
+              Achou a oferta? <span className="destaque-off">Levou com desconto</span>
             </h1>
             <p className="hero-sub">
-              Separamos ofertas de <b>eletrônicos, eletrodomésticos e enxoval</b> que encontramos em lojas online e
-              mandamos no grupo. Deixe silenciado e dê uma olhada quando precisar comprar alguma coisa.
+              A gente garimpa <b>eletrônicos, eletrodomésticos e enxoval</b> nas lojas online e manda só o que vale a pena
+              no grupo. Deixe no silencioso e abra quando for comprar alguma coisa.
             </p>
-            <Botoes texto="Ver o grupo no WhatsApp" />
+            <Botoes texto="Quero ver as ofertas" />
             <ul className="hero-garantias">
               <li>
                 <Anim n="check" t={20} /> Sem custo adicional
@@ -157,7 +157,7 @@ export default function Home() {
         <section className="secao faixa" id="exemplos">
           <div className="wrap">
             <p className="sobretitulo rv">Exemplos</p>
-            <h2 className="secao-titulo rv">Exemplos de ofertas que compartilhamos</h2>
+            <h2 className="secao-titulo rv">Achados que já passaram pelo grupo</h2>
             <p className="secao-sub rv">
               Alguns produtos que já divulgamos no grupo. As ofertas do dia, com preço e link da loja, são enviadas
               dentro do grupo.
@@ -181,10 +181,10 @@ export default function Home() {
               <VideoLoop nome="cinema" className="cinema-video" />
               <div className="cinema-veu" />
               <div className="cinema-texto">
-                <span className="cinema-linha l1">Precisa comprar algo?</span>
-                <span className="cinema-linha l2">Dá uma olhada</span>
+                <span className="cinema-linha l1">Vai comprar alguma coisa?</span>
+                <span className="cinema-linha l2">Confere no grupo</span>
                 <span className="cinema-linha l3">
-                  no grupo <em>antes.</em>
+                  <em>primeiro.</em>
                 </span>
               </div>
             </div>
@@ -195,7 +195,7 @@ export default function Home() {
         <section className="secao manifesto" data-progresso>
           <div className="wrap">
             <p className="sobretitulo rv">Como a gente pensa</p>
-            <TextoRolagem texto="Todo dia produtos mudam de preço e entram em *promoção.* Quem acompanha essas *oscilações* tem mais *oportunidades* de encontrar um *bom desconto.*" />
+            <TextoRolagem texto="Preço sobe e desce o tempo todo. Quem fica de *olho* nas *promoções* acha o *momento certo* e paga *menos* pelo mesmo produto." />
           </div>
         </section>
 
@@ -203,7 +203,7 @@ export default function Home() {
         <section className="secao" id="como-funciona">
           <div className="wrap">
             <p className="sobretitulo rv">Como funciona</p>
-            <h2 className="secao-titulo rv">Do garimpo até o seu celular</h2>
+            <h2 className="secao-titulo rv">Como a oferta chega até você</h2>
             <p className="secao-sub rv">Um trabalho de curadoria simples, feito todo dia.</p>
             <div className="tipo-grid fluxo">
               <article className="tipo rv">
@@ -232,7 +232,7 @@ export default function Home() {
         <section className="galeria" data-progresso aria-label="Galeria de momentos de compra">
           <div className="wrap">
             <p className="sobretitulo claro rv">Compras do dia a dia</p>
-            <h2 className="secao-titulo claro rv">Para quando você precisar comprar alguma coisa</h2>
+            <h2 className="secao-titulo claro rv">Pra hora em que bate a vontade de comprar</h2>
           </div>
           <LinhaGaleria itens={GALERIA_1} />
           <LinhaGaleria itens={GALERIA_2} reverso />
@@ -246,7 +246,7 @@ export default function Home() {
             </div>
             <div className="split-texto rv">
               <p className="sobretitulo esquerda">Como é o grupo</p>
-              <h2 className="secao-titulo esquerda">Um grupo tranquilo, só com ofertas</h2>
+              <h2 className="secao-titulo esquerda">Grupo sem bagunça, só achados</h2>
               <ul className="lista-check">
                 <li>
                   <Anim n="check" t={24} /> <span><b>Chega sozinho:</b> você não precisa procurar nada.</span>
@@ -270,7 +270,7 @@ export default function Home() {
         <section className="secao">
           <div className="wrap">
             <p className="sobretitulo rv">O que chega no seu zap</p>
-            <h2 className="secao-titulo rv">3 tipos de oferta que monitoramos</h2>
+            <h2 className="secao-titulo rv">O que a gente caça pra você</h2>
             <div className="tipo-grid">
               <article className="tipo rv" data-tilt>
                 <span className="brilho-mouse" aria-hidden="true" />
@@ -302,7 +302,7 @@ export default function Home() {
           <div className="wrap split split-inverso">
             <div className="split-texto rv">
               <p className="sobretitulo esquerda">A pergunta de todo mundo</p>
-              <h2 className="secao-titulo esquerda">&ldquo;Como o grupo se mantém?&rdquo;</h2>
+              <h2 className="secao-titulo esquerda">&ldquo;E como vocês ganham com isso?&rdquo;</h2>
               <p className="porque-aviso">{TEXTO_AFILIADO}</p>
               <div className="porque-lista">
                 <article>
@@ -359,7 +359,7 @@ export default function Home() {
         <section className="secao como" data-progresso>
           <div className="wrap">
             <p className="sobretitulo rv">Para entrar</p>
-            <h2 className="secao-titulo rv">Em 1 minuto você já está dentro</h2>
+            <h2 className="secao-titulo rv">Entrar leva menos de 1 minuto</h2>
             <div className="passos">
               <div className="passos-linha" aria-hidden="true">
                 <span />
@@ -433,7 +433,7 @@ export default function Home() {
           </div>
           <div className="wrap">
             <p className="sobretitulo claro rv">Nosso filtro</p>
-            <h2 className="secao-titulo claro rv">Toda oferta passa por 3 checagens</h2>
+            <h2 className="secao-titulo claro rv">Antes de mandar, a gente confere 3 coisas</h2>
             <div className="passos-num">
               <article className="rv">
                 <span className="num-passo">01</span>
@@ -470,7 +470,7 @@ export default function Home() {
               <p className="sobretitulo esquerda">
                 <Anim n="presente" t={22} /> Faça um favor para alguém
               </p>
-              <h2 className="secao-titulo esquerda">Conhece alguém que vive caçando promoção?</h2>
+              <h2 className="secao-titulo esquerda">Tem um amigo que ama promoção?</h2>
               <p className="indique-sub">
                 Mande o link do grupo para a família, os amigos ou aquele grupo do trabalho. Ajude quem você gosta a
                 pagar menos nas compras do dia a dia.
@@ -487,7 +487,7 @@ export default function Home() {
         <section className="secao faq" id="faq">
           <div className="wrap">
             <p className="sobretitulo rv">Dúvidas</p>
-            <h2 className="secao-titulo rv">Perguntas frequentes</h2>
+            <h2 className="secao-titulo rv">Ficou alguma dúvida?</h2>
             <div className="faq-lista rv">
               <details open>
                 <summary>Tem algum custo para participar?</summary>
@@ -546,9 +546,9 @@ export default function Home() {
           <div className="wrap">
             <Anim n="festa" t={84} className="fechamento-emoji" />
             <h2>
-              Entre e veja como é.
+              Achou? Levou.
               <br />
-              <em>Se não gostar, sai em dois toques.</em>
+              <em>Entra e confere.</em>
             </h2>
             <p>Sem cadastro e sem mensalidade. Deixe silenciado e consulte quando precisar comprar alguma coisa.</p>
             <Botoes grande />

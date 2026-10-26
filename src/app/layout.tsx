@@ -1,13 +1,13 @@
 import type { Metadata, Viewport } from "next";
 import Script from "next/script";
-import { Anton, Archivo } from "next/font/google";
+import { Bricolage_Grotesque, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import "./movimento.css";
 import "./conversao.css";
 import { ADS_ID, GA_ID, SITE_URL } from "@/config";
 
-const anton = Anton({ subsets: ["latin"], weight: "400", variable: "--f-titulo" });
-const archivo = Archivo({ subsets: ["latin"], weight: ["400", "600", "800"], variable: "--f-texto" });
+const bricolage = Bricolage_Grotesque({ subsets: ["latin"], weight: ["700", "800"], variable: "--f-titulo" });
+const jakarta = Plus_Jakarta_Sans({ subsets: ["latin"], weight: ["400", "600", "800"], variable: "--f-texto" });
 
 const titulo = "Achou, Levou — Curadoria independente de promoções";
 const descricao =
@@ -51,7 +51,7 @@ ${GA_ID ? `gtag('config', ${JSON.stringify(GA_ID)});` : ""}
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="pt-BR" className={`${anton.variable} ${archivo.variable}`}>
+    <html lang="pt-BR" className={`${bricolage.variable} ${jakarta.variable}`}>
       <body>
         {children}
         {ADS_ID && (
