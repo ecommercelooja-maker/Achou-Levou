@@ -62,4 +62,4 @@ NEXT_PUBLIC_GA_ID       = G-XXXXXXXXXX   (Google Analytics 4, opcional)
 ## Ainda falta (src/config.ts e src/lib/empresa.ts)
 
 - Links dos grupos de WhatsApp (`LINKS_WHATSAPP`) e do Telegram (`TELEGRAM`) do Achou, Levou
-- Criar a caixa `contato@achoulevou.com.br` (`EMAIL_CONTATO`) depois de registrar o domínio
+- Criar a caixa `contato@promoachoulevou.com` (`EMAIL_CONTATO`) depois de registrar o domínio
