@@ -120,7 +120,8 @@ export function Rodape({ home = false }: { home?: boolean }) {
         <div className="wrap rodape-base">
           <p className="rodape-afiliado">{TEXTO_AFILIADO_RODAPE}</p>
           <p>
-            {RAZAO_SOCIAL} — CNPJ {CNPJ} · {ENDERECO}
+            {RAZAO_SOCIAL} — CNPJ {CNPJ}
+            {ENDERECO && ` · ${ENDERECO}`}
           </p>
           <p>
             Contato: <a href={`mailto:${EMAIL_CONTATO}`}>{EMAIL_CONTATO}</a>
