@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { MARCA, SITE_URL } from "@/config";
 import { PaginaInterna } from "@/components/Site";
-import { CNPJ, EMAIL_CONTATO, ENDERECO, LINHA_EMPRESA, RAZAO_SOCIAL } from "@/lib/empresa";
+import { CNPJ, EMAIL_CONTATO, ENDERECO_SUFIXO, LINHA_EMPRESA, RAZAO_SOCIAL } from "@/lib/empresa";
 
 type Doc = { titulo: string; descricao: string; secoes: [string, string][]; atualizado?: string };
 
@@ -17,7 +17,7 @@ const DOCS: Record<string, Doc> = {
       ["Como funciona", "Buscamos ofertas em lojas online, conferimos o preço e a reputação do vendedor e divulgamos nos nossos grupos de WhatsApp e no canal do Telegram. Não vendemos produtos: a compra é feita direto no site da loja, que cuida do pagamento, da entrega, da troca e da garantia."],
       ["Como ganhamos dinheiro", "Recebemos comissão de programas de afiliados quando alguém compra pelos nossos links. Você não paga nada a mais por isso: o preço é o mesmo de quem entra direto no site da loja. Como Associado da Amazon, ganhamos com compras qualificadas."],
       ["Nosso compromisso", "Sem spam: só o administrador envia mensagens e ninguém te chama no privado. Ofertas verificadas: conferimos o histórico de preço antes de divulgar. Liberdade: você sai do grupo ou do canal a qualquer momento, em dois toques, sem precisar avisar ninguém."],
-      ["Contato", `Fale com a gente pelo e-mail ${EMAIL_CONTATO}. ${RAZAO_SOCIAL}, CNPJ ${CNPJ}, ${ENDERECO}.`],
+      ["Contato", `Fale com a gente pelo e-mail ${EMAIL_CONTATO}. ${RAZAO_SOCIAL}, CNPJ ${CNPJ}${ENDERECO_SUFIXO}.`],
     ],
   },
   contato: {
@@ -25,7 +25,7 @@ const DOCS: Record<string, Doc> = {
     descricao: `Fale com o ${MARCA}: e-mail e dados da empresa responsável pelo site.`,
     secoes: [
       ["E-mail", `Dúvidas, sugestões, pedidos sobre seus dados (LGPD) ou para sair de uma lista: ${EMAIL_CONTATO}.`],
-      ["Empresa responsável", `${RAZAO_SOCIAL}, CNPJ ${CNPJ}, ${ENDERECO}.`],
+      ["Empresa responsável", `${RAZAO_SOCIAL}, CNPJ ${CNPJ}${ENDERECO_SUFIXO}.`],
       ["Pedidos e entregas", `O ${MARCA} não vende produtos. Questões sobre pagamento, entrega, troca ou garantia de uma compra são resolvidas direto com a loja onde o pedido foi feito.`],
     ],
   },
