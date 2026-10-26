@@ -59,7 +59,7 @@ NEXT_PUBLIC_GADS_LABEL  = rótulo da conversão "Entrar no grupo"
 NEXT_PUBLIC_GA_ID       = G-XXXXXXXXXX   (Google Analytics 4, opcional)
 ```
 
-## Ainda é do Oferta Certa (trocar em src/config.ts e src/lib/empresa.ts quando tiver os próprios)
+## Ainda falta (src/config.ts e src/lib/empresa.ts)
 
-- Links dos grupos de WhatsApp (`LINKS_WHATSAPP`) e do Telegram (`TELEGRAM`)
-- E-mail de contato (`EMAIL_CONTATO`)
+- Links dos grupos de WhatsApp (`LINKS_WHATSAPP`) e do Telegram (`TELEGRAM`) do Achou, Levou
+- Criar a caixa `contato@achoulevou.com.br` (`EMAIL_CONTATO`) depois de registrar o domínio
