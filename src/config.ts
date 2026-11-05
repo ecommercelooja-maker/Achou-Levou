@@ -12,6 +12,7 @@ export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || "https://achou-levo
 // Todos entram pelo primeiro link da lista. Quando o grupo lotar, tire o link dele e o próximo assume.
 // Ao criar um grupo novo, adicione o link no fim da lista.
 export const LINKS_WHATSAPP: string[] = [
+  "https://chat.whatsapp.com/LiKZ4jL0Gw29PBQBlglVFg",
   "https://chat.whatsapp.com/C9sC5BKFqL1BbOjikEjjGB",
   "https://chat.whatsapp.com/H2qtR7CtBEu4WZvpSGlYLP",
   "https://chat.whatsapp.com/KcTgEwKyCI32KwnGRJJjzj",
