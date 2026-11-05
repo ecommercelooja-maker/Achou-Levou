@@ -53,7 +53,7 @@ export const MOSTRAR_PRECOS = false;
 // Medição (opcional). Preencha na Vercel para ativar (veja .env.example). A tag do Google só carrega com
 // ADS_ID (NEXT_PUBLIC_GADS_ID) e começa com consentimento negado (Consent Mode v2) até o aceite no aviso de cookies.
 // Os nomes antigos NEXT_PUBLIC_GOOGLE_ADS_* continuam valendo como reserva.
-export const ADS_ID = process.env.NEXT_PUBLIC_GADS_ID || process.env.NEXT_PUBLIC_GOOGLE_ADS_ID || ""; // vazio: sem tag do Google até o Achou, Levou ter a própria conta
+export const ADS_ID = process.env.NEXT_PUBLIC_GADS_ID || process.env.NEXT_PUBLIC_GOOGLE_ADS_ID || "AW-18543777494"; // tag do Google Ads do Achou, Levou
 export const ADS_ROTULO = process.env.NEXT_PUBLIC_GADS_LABEL || process.env.NEXT_PUBLIC_GOOGLE_ADS_LABEL || ""; // conversão "Entrar no grupo"
 export const GA_ID = process.env.NEXT_PUBLIC_GA_ID || ""; // ex.: G-XXXXXXX (só é configurado junto com a tag do Ads)
 // TODO Meta Pixel: quando for ativado, o ID (NEXT_PUBLIC_META_PIXEL_ID) entra aqui.
