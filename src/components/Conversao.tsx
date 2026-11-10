@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { IconeTelegram, IconeZap } from "@/components/Logo";
-import { ADS_ID, SITE_URL, TEXTO_INDICACAO } from "@/config";
+import { ADS_ID, GTM_ID, SITE_URL, TEXTO_INDICACAO } from "@/config";
 import { converter, rastrear } from "@/lib/rastreio";
 
 /* ------------------------------------------------------------------ */
@@ -124,7 +124,7 @@ const CHAVE_COOKIES = "al-cookies";
 
 export function Medicao() {
   const [mostrar, setMostrar] = useState(false);
-  const ativa = Boolean(ADS_ID);
+  const ativa = Boolean(ADS_ID || GTM_ID);
 
   useEffect(() => {
     if (!ativa) return;

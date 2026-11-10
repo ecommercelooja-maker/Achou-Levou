@@ -56,6 +56,7 @@ export const MOSTRAR_PRECOS = false;
 // Os nomes antigos NEXT_PUBLIC_GOOGLE_ADS_* continuam valendo como reserva.
 export const ADS_ID = process.env.NEXT_PUBLIC_GADS_ID || process.env.NEXT_PUBLIC_GOOGLE_ADS_ID || "AW-18543777494"; // conta Google Ads do Achou, Levou
 export const ADS_ROTULO = process.env.NEXT_PUBLIC_GADS_LABEL || process.env.NEXT_PUBLIC_GOOGLE_ADS_LABEL || "OT56CO6i1bIdENatropF"; // conversão "Contato" (clique para entrar no grupo)
+export const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID || "GTM-M424TK5P"; // Google Tag Manager (carrega depois do Consent Mode)
 export const GA_ID = process.env.NEXT_PUBLIC_GA_ID || ""; // ex.: G-XXXXXXX (só é configurado junto com a tag do Ads)
 // TODO Meta Pixel: quando for ativado, o ID (NEXT_PUBLIC_META_PIXEL_ID) entra aqui.
 
