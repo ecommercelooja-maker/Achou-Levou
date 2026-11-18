@@ -57,7 +57,7 @@ export const MOSTRAR_PRECOS = false;
 export const ADS_ID = process.env.NEXT_PUBLIC_GADS_ID || process.env.NEXT_PUBLIC_GOOGLE_ADS_ID || "AW-18543777494"; // conta Google Ads do Achou, Levou
 export const ADS_ROTULO = process.env.NEXT_PUBLIC_GADS_LABEL || process.env.NEXT_PUBLIC_GOOGLE_ADS_LABEL || "OT56CO6i1bIdENatropF"; // conversão "Contato" (clique para entrar no grupo)
 // Contêineres do Google Tag Manager (carregam depois do Consent Mode). NEXT_PUBLIC_GTM_ID (separado por vírgula) substitui a lista.
-export const GTM_IDS: string[] = (process.env.NEXT_PUBLIC_GTM_ID || "GTM-M424TK5P,GTM-KL6C4XGB")
+export const GTM_IDS: string[] = (process.env.NEXT_PUBLIC_GTM_ID || "GTM-KL6C4XGB")
   .split(",")
   .map((id) => id.trim())
   .filter(Boolean);
